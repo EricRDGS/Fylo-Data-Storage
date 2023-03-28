@@ -1,0 +1,151 @@
+body{
+    background-color: var(--neutral-very-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fylo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: url(../images/bg-desktop.png) no-repeat;
+    background-position: center 160%;
+}
+
+.fylo .archives-fylo{
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
+    max-width: 1440px;
+}
+
+.fylo .archives-fylo .logo-fylo{
+    border-radius: 8px 80px 8px 8px;
+    height: 150px;
+    width: 280px;
+    background-color: var(--neutral-dark);
+}
+
+.fylo .archives-fylo .logo-fylo .logo{
+    margin: 1.2rem 1.5rem;
+}
+
+.fylo .archives-fylo .archives{
+    margin-left: 1.5rem;
+}
+
+.fylo .archives-fylo .archives ul{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.fylo .archives-fylo .archives ul > li{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: var(--neutral-very-dark);
+}
+
+.fylo .archives-fylo .archives ul > li:first-child{
+    padding: 7px 10px;
+}
+
+.fylo .archives-fylo .archives ul > li:last-child{
+    padding: 10px;
+}
+
+.fylo .archives-fylo .stats{
+    background-color: var(--neutral-dark);
+    height: 110px;
+    width: 400px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.fylo .archives-fylo .stats .gb-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px 6px 0 6px;
+    width: 90px;
+    height: 40px;
+    background-color: var(--neutral-pale);
+    position: absolute;
+    top: -20%;
+    right: 7%;
+}
+
+.fylo .archives-fylo .stats .gb-left::after{
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 0;
+    border-left: 18px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 20px solid var(--neutral-pale);
+    position: absolute;
+    bottom: -35%;
+    right: 0%;
+}
+
+.fylo .archives-fylo .stats .gb-left p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.fylo .archives-fylo .stats .gb-left p > span{
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.fylo .archives-fylo .stats .text{
+    color: var(--neutral-grayish);
+    margin: 1.5rem 1.5rem .5rem;
+}
+
+.fylo .archives-fylo .stats .text span{
+    font-weight: 700;
+    color: var(--neutral-pale);
+}
+
+.fylo .archives-fylo .stats .porcentage{
+    height: 15px;
+    width: 87%;
+    border-radius: 10px;
+    border: 2px solid var(--neutral-very-dark);
+    background-color: var(--neutral-very-dark);
+    margin: 0 1.5rem .5rem;
+    position: relative;
+}
+
+.fylo .archives-fylo .stats .porcentage div{
+    height: 11px;
+    width: 80%;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, var(--gradient-stats-one), var(--gradient-stats-two));
+    position: relative;
+}
+
+.fylo .archives-fylo .stats .porcentage div::after{
+    content: '';
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 100%;
+    position: absolute;
+    top: 13.5%;
+    right: 0.5%;
+    background-color: var(--neutral-pale);
+}
+
+.fylo .archives-fylo .stats .gb{
+    display: flex;
+    justify-content: space-between;
+    color: var(--neutral-pale);
+    margin: 0 1.5rem;
+}

@@ -1,0 +1,93 @@
+@media(max-width: 730px){
+    .fylo .archives-fylo .logo-fylo{
+        width: 250px;
+    }
+
+    .fylo .archives-fylo .stats{
+        width: 300px;
+    }
+
+    .fylo .archives-fylo .stats .gb-left{
+        right: 10%;
+    }
+
+    .fylo .archives-fylo .stats .text{
+        font-size: 10px;
+    }
+
+    .fylo .archives-fylo .stats .porcentage{
+        width: 82%;
+    }
+
+    .fylo .archives-fylo .stats .porcentage div{
+        width: 70%;
+    }
+
+    .fylo .archives-fylo .stats .porcentage div::after{
+        top: 10%;
+        right: 0.2%;
+    }
+
+    .fylo .archives-fylo .stats .gb{
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 585px){
+    .fylo{
+        background: url(../images/bg-mobile.png) no-repeat center;
+        background-size: cover;
+    }
+
+    .fylo .archives-fylo{
+        flex-direction: column;
+    }
+
+    .fylo .archives-fylo .logo-fylo{
+        height: 30vh;
+        width: 90vw;
+        margin: auto;
+    }
+
+    .fylo .archives-fylo .logo-fylo .logo{
+        margin: 1.5rem 1.5rem;
+    }
+
+    .fylo .archives-fylo .archives{
+        margin: 1rem 1.5rem;
+    }
+    .fylo .archives-fylo .stats{
+        height: 25vh;
+        width: 90vw;
+        margin: auto;
+    }
+
+    .fylo .archives-fylo .stats .gb-left{
+        top: 75%;
+        right: 50%;
+        transform: translate(50%);
+        height: 10vh;
+        width: 50vw;
+        border-radius: 6px;
+    }
+
+    .fylo .archives-fylo .stats .gb-left::after{
+        display: none;
+    }
+
+    .fylo .archives-fylo .stats .gb-left p{
+        font-size: 32px;
+    }
+
+    .fylo .archives-fylo .stats .gb-left p > span{
+        font-size: 12px;
+    }
+
+    .fylo .archives-fylo .stats .text{
+        font-size: 18px;
+    }
+
+    .fylo .archives-fylo .stats .gb{
+        font-size: 18px;
+    }
+}
